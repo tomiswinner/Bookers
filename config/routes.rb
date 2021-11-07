@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   root :to => "books#top"
   get "books" => "books#index",as: "index"
-  get "books/:id" => "books#show"
+  get "books/:id" => "books#show",as: "show"
   get "books/:id/edit" => "books#edit"
-  
+
+  post "books" => "books#create"
 end
