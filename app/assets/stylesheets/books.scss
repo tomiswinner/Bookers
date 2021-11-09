@@ -1,3 +1,44 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+// index.html.erb
+
+
+.books_index{
+  text-indent:initial;
+  border-spacing:2px;
+
+}
+
+.books_index_header{
+
+  vertical-align:middle; //textのy軸中央寄せ
+}
+
+.books_index_header th{
+  padding-bottom:5px;
+}
+
+.books_index td{
+  padding-bottom:7px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+
+
+.new_book_title{
+  padding-bottom:10px;
+  font-size:19.5px;
+}
+
+
+// show.html
+
+.book_content{
+  margin-bottom:20px;
+}

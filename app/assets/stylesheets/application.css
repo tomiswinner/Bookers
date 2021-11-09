@@ -7,9 +7,78 @@
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
+ * files in this directory. Styles in this file sc9hould be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
  *= require_self
  */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica,sens-serif;
+  color:#333;
+  font-size:13px;
+}
+
+header{
+  margin:33px;
+}
+
+main{
+  margin:33px;
+}
+
+.title{
+  font-size:26px;
+}
+
+.field_with_errors{
+  background-color:red;
+  padding:2px;
+}
+
+.form_label{
+  display:block;
+}
+.form_field{
+  margin-bottom:10px;
+}
+
+.link_btn{
+  margin-top:10px;
+}
+
+
+.bold{
+  font-weight:bold;
+}
+
+.error_message{
+  background-color:#f0f0f0;
+  border:2px solid red;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+
+.error_message_title{
+  color:#fff;
+  background-color:#CC0000;
+  padding:7px;
+}
+
+.error_message_content{
+  margin:20px
+}
+
+.error_message_content li{
+  list-style:square;
+  list-style-position:inside;
+  padding:5px;
+}
+
+.flash{
+  color:green;
+}
