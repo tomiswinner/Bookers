@@ -9,7 +9,7 @@
   <p class="book_content"><span class="bold">Body:</span> <%= @book.body %></p>
 
   <div class="link_btn">
-    <span><%= link_to "Edit",edit_path(@book.id) %></span>
+    <span><%= link_to "Edit",edit_book_path(@book.id) %></span>
     |
     <span><%= link_to "Back",books_path %></span>
   </div>
