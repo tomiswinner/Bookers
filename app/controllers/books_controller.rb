@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
 
-  def top
-  end
+  # def top
+  # end
 
   # 全体表示ページ
   def index
